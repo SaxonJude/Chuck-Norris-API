@@ -1,0 +1,73 @@
+* {
+    font-family: 'Overpass';
+    color: white;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    background: rgb(15,12,41);
+background: linear-gradient(90deg, rgb(12, 13, 41) 0%, 
+rgb(26, 34, 61) 50%, rgba(36,36,62,1) 100%);   
+}
+
+img {
+    margin-top: -8em;
+    height: 400px;
+    position: relative;
+    right: 20px;
+    top: 10px;
+}
+
+p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.671);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 166, 0);
+}
+
+a:hover {
+    color: rgba(146, 95, 0, 0.753);
+}
+
+.joke_section {
+    position: relative;
+    bottom: 20px;
+    height: 8vh;
+    max-width:600px; 
+    width: auto !important;
+    width: 600px;
+    text-align: center;
+    padding-top: 1.3em;
+}
+
+.roll_again {
+    border: 2px solid white;
+    padding: .6em;
+    text-align: center;
+    font-size: 14px;
+}
+
+.roll_again:hover {
+    cursor: pointer;
+    background-color: rgb(89, 85, 99);
+}
+
+.footer {
+    position: fixed;
+    top: 92vh;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+
+span {
+    text-align: center;
+    font-size: 11px;
+}
